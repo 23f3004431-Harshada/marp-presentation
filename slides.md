@@ -63,6 +63,7 @@ code {
 - Custom themes  
 
 ---
+
 ---
 _backgroundImage: url('images/download.png')
 _backgroundSize: cover
@@ -75,12 +76,6 @@ _backgroundPosition: center
 - APIs  
 - Frontend SPA  
 - Observability
-
-
-- Microservices  
-- APIs  
-- Frontend SPA  
-- Observability  
 
 ---
 
