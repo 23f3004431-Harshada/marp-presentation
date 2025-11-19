@@ -65,7 +65,7 @@ code {
 ---
 
 <!-- _class: compact -->
-<!-- _backgroundImage: url('./images/architecture.png') -->
+<!-- _backgroundImage: url('./images/download.png') -->
 <!-- _backgroundSize: cover -->
 <!-- _backgroundPosition: center -->
 
