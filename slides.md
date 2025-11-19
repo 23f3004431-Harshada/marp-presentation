@@ -16,7 +16,6 @@ section {
   padding: 40px;
 }
 
-/* Lead slide style (for title slide) */
 section.lead {
   display: flex;
   flex-direction: column;
@@ -25,18 +24,15 @@ section.lead {
   text-align: center;
 }
 
-/* Slightly smaller, denser slides */
 section.compact {
   font-size: 22px;
   line-height: 1.4;
 }
 
-/* Accent color for headings */
 h1, h2, h3 {
   color: #ffcc66;
 }
 
-/* Code style */
 code {
   font-family: "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   font-size: 0.95em;
@@ -65,9 +61,7 @@ code {
 ---
 
 ---
-_backgroundImage: url('images/download.png')
-_backgroundSize: cover
-_backgroundPosition: center
+_backgroundImage: url("images/download.png")
 ---
 
 # System Architecture (Background Image)
