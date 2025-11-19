@@ -1,102 +1,80 @@
 ---
 marp: true
+title: Product Documentation
+author: 23f3004431@ds.study.iitm.ac.in
 theme: custom
 paginate: true
-footer: "Page %d / %d"
-math: true
 ---
 
 <style>
-/* @theme custom */
-
 section {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background-color: #0b1020;
-  color: #f5f5f5;
-  padding: 40px;
+  font-family: "Segoe UI", sans-serif;
+  background: #fafafa;
+  color: #222;
 }
-
-section.lead {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+h1 {
+  color: #0066cc;
 }
-
-section.compact {
-  font-size: 22px;
-  line-height: 1.4;
-}
-
-h1, h2, h3 {
-  color: #ffcc66;
-}
-
 code {
-  font-family: "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
-  font-size: 0.95em;
+  background: #eee;
+  padding: 4px;
+  border-radius: 6px;
 }
 </style>
 
-<!-- _class: lead -->
+<!-- Custom theme -->
+<!-- themes/custom.css -->
+<!--
+section {
+  background: #f2f2f2;
+  color: #333;
+}
+-->
 
-# Product Documentation with Marp
-
-### Technical Writer – Software Engineering Docs  
-23f3004431@ds.study.iitm.ac.in
+# Product Documentation  
+By **23f3004431@ds.study.iitm.ac.in**
 
 ---
 
-<!-- _class: compact -->
+<!-- _class: lead -->
+<!-- _backgroundColor: #003366 -->
+<!-- _color: #ffffff -->
 
-## Why Marp?
+# Introduction  
+Modern, version-controlled documentation using **Marp**.
 
-- Markdown based  
-- Version controlled  
-- PDF/HTML export  
-- Supports math  
+---
+
+<!-- Background image slide -->
+![bg cover](images/download.png)
+
+# System Overview  
+Documentation with background image.
+
+---
+
+# Features  
+- Version control–friendly  
+- Markdown-based  
+- Export to HTML/PDF/PPTX  
 - Custom themes  
+- Styled sections  
 
 ---
 
----
-_backgroundImage: url("images/download.png")
----
+# Algorithmic Complexity
 
-# System Architecture (Background Image)
+Inline example: $O(n \log n)$
 
-- Microservices  
-- APIs  
-- Frontend SPA  
-- Observability
+Block example:
 
----
-
-<!-- _class: compact -->
-
-## Mathematical Complexity
-
-\[
-T(n) = O(\log n)
-\]
-
-\[
-T(n) = O(n)
-\]
-
-\[
-T(n) = O(n \log n)
-\]
-
-\[
-T(n) = 3n^2 + 2n + 1 \Rightarrow O(n^2)
-\]
+$$
+T(n) = T\left(\frac{n}{2}\right) + n  
+\Rightarrow T(n) = O(n)
+$$
 
 ---
 
-<!-- _class: lead -->
-
-# Thank You
-
-23f3004431@ds.study.iitm.ac.in
+<!-- _footer: © 2025 Documentation -->
+# Conclusion  
+Maintainable, scalable, professional documentation using Marp.
