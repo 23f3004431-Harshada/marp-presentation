@@ -63,13 +63,19 @@ code {
 - Custom themes  
 
 ---
-
-<!-- _class: compact -->
-<!-- _backgroundImage: url('./images/download.png') -->
-<!-- _backgroundSize: cover -->
-<!-- _backgroundPosition: center -->
+---
+_backgroundImage: url('images/download.png')
+_backgroundSize: cover
+_backgroundPosition: center
+---
 
 # System Architecture (Background Image)
+
+- Microservices  
+- APIs  
+- Frontend SPA  
+- Observability
+
 
 - Microservices  
 - APIs  
