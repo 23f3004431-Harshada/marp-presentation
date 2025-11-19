@@ -2,8 +2,8 @@
 marp: true
 theme: custom
 paginate: true
-footer: 'Page %d / %d'
-math: katex
+footer: "Page %d / %d"
+math: true
 ---
 
 <style>
